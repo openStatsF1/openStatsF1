@@ -12,6 +12,9 @@ const {
     stringify
 } = require("querystring")
 
+
+console.log("loaded")
+
 let date = new Date()
 let ticks = date.getSeconds()
 
@@ -46,12 +49,12 @@ function getUpdates() {
 
             // Output the filtered results
             console.log(filtered);
-            
+
         })
         .catch(error => {
             console.error('Error fetching data:', error);
         });
-        // console.clear()
+    // console.clear()
 
 }
 
