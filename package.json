@@ -1,0 +1,24 @@
+{
+  "name": "openf1dashboard",
+  "version": "1.0.0",
+  "description": "open dashboard for f1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified'; false",
+    "start": "node server.js"
+  },
+  "author": "lerck",
+  "license": "ISC",
+  "dependencies": {
+    "https": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openStatsF1/openStatsF1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/openStatsF1/openStatsF1/issues"
+  },
+  "homepage": "https://github.com/openStatsF1/openStatsF1#readme"
+}
